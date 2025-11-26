@@ -1,9 +1,9 @@
 # Java Test Framework
-
-## 📌 Project Overview
 Java Selenium & Cucumber automation framework integrated with TestNG for BDD (Behavior-Driven Development) testing. This project enables writing test cases in Gherkin syntax and mapping them to Java step definitions for UI automation.
 
-## 🚀 Getting Started
+<br>
+
+# 🚀 Getting Started
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -30,9 +30,13 @@ TEST_USERNAME=<USERNAME>
 TEST_PASSWORD=<PASSWORD>
 ```
 
+<br>
+
 Reports will be generated in `target/cucumber-reports.html`.
 
-## 🛠 Dependencies
+<br>
+
+# 🛠 Dependencies
 This project uses:
 - **Java 21**
 - **Maven**
@@ -41,7 +45,9 @@ This project uses:
 - **TestNG**
 - **WebDriverManager** (for automatic driver management)
 
-## 📌 Feature Example (Gherkin Syntax)
+<br>
+
+# 📌 Feature Example (Gherkin Syntax)
 ```cucumber
 Feature: Login functionality
   Scenario: User logs in with valid credentials
@@ -50,7 +56,10 @@ Feature: Login functionality
     And clicks the login button
     Then the user should be redirected to the homepage
 ```
-## 📝 Running Individual Tests
+
+<br>
+
+# 📝 Running Individual Tests
 Run a single feature file:
 ```bash
 mvn test -Dcucumber.features=src/test/resources/features/login.feature
@@ -59,8 +68,13 @@ Run tests by **tag**:
 ```bash
 mvn test -Dcucumber.options="--tags @SmokeTest"
 ```
-## 🔥 Contributors
+
+<br>
+
+# 🔥 Contributors
 - **Kevin Thomas** - Creator & Maintainer
 
-## 📜 License
+<br>
+
+# 📜 License
 This project is licensed under the **Apache License**.
